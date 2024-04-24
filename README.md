@@ -18,7 +18,12 @@ This code is to create a proveably random smart contract lottery
 ## Quickstart:
 
 1. install the repo:
-2. Deploy the contract
-3. Share and participate!
+    git clone https://github.com/Jludvim/Foundry-Smart-Contract-Lottery-f23.git
+2. Install the associated libraries
+   
+ 3. enter the library
+      cd Jludvim/Foundry-Smart-Contract-Lottery-f23
+5. Deploy the contract
+   
 
 
