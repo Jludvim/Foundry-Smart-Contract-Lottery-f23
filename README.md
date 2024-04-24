@@ -1,66 +1,24 @@
-## Foundry
+# proveably random raffle contract
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+## About 
+This code is to create a proveably random smart contract lottery
 
-Foundry consists of:
+## What we want it to do?
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+1. Users can enter bt paying for a ticket
+    1. The ticket fees are going to go to the winner during the draw
+2. After X period of time, the lottery will automatically draw a iwnner
+    1. and this will be done programmatically
+3. Using chainlink VRF and Chainlink automation
+    1. Chainlink VRF --> Randonmess
+    2. Chainlink Automation --> TIme based trigger
 
-## Documentation
 
-https://book.getfoundry.sh/
 
-## Usage
+## Quickstart:
 
-### Build
+1. install the repo:
+2. Deploy the contract
+3. Share and participate!
 
-```shell
-$ forge build
-```
 
-### Test
-
-```shell
-$ forge test
-```
-
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
